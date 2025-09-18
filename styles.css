@@ -12,9 +12,27 @@ body {
 .ham {
   background-image: url(hamgurger.png);
   background-size: cover;
-  width: 30px;
-  align-self: stretch;
-  transform: rotateY(180deg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #008CFF;
+  width: 40px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 nav {
