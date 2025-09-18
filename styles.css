@@ -15,8 +15,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #008CFF;
-  width: 40px;
-  height: 50px;
+  width: 30px;
+  height: 40px;
   border: none;
   cursor: pointer;
 }
@@ -86,5 +86,4 @@ h1 {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: end;
-  
 }
