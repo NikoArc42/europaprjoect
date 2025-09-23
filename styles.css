@@ -65,11 +65,18 @@ nav {
   background-color: #008CFF;
 }
 
+@media (max-width: 426px) {
 .europa {
-  min-width: 300px;
-  min-height: 300px;
-  max-width: 500px;
-  max-height: 500px;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 427px) {
+.europa {  
+    width: 500px;
+    height: 500px;
+  }
 }
 
 nav a {
