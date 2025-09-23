@@ -79,6 +79,11 @@ nav {
   }
 }
 
+.text {
+  background-color: #000;
+  display: block;
+}
+
 nav a {
   display: inline-block;
   min-width: 9rem;
