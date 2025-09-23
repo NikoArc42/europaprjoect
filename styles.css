@@ -65,6 +65,13 @@ nav {
   background-color: #008CFF;
 }
 
+.europa {
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
 nav a {
   display: inline-block;
   min-width: 9rem;
