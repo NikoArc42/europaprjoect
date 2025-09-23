@@ -14,6 +14,10 @@ body {
   "footer aside";
 }
 
+.moon {
+  padding-left: 10px;
+}
+
 .ham {
   background-image: url(hamgurger.png);
   background-size: cover;
