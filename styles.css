@@ -90,10 +90,13 @@ nav {
 .align {
   display: flex;
   flex-direction: row;
+  gap: 16px;
+  align-items: center;
 }
 
 .align > * {
   max-width: 50%;
+  max-height: fit-content;
 }
 }
 
