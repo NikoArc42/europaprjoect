@@ -122,6 +122,11 @@ nav {
   align-items: center;
 }
 
+.section2 * > {
+  max-width: 50%;
+  max-height: fit-content;
+}
+
 .brain {
   background-color: hotpink;
   color: #000;
