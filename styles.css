@@ -121,6 +121,18 @@ nav {
   gap: 16px;
   align-items: center;
 }
+
+.brain {
+  background-color: hotpink;
+  color: #000;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
 }
 
 .text {
