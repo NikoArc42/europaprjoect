@@ -73,6 +73,11 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
+.bomba {
+  width: 200px;
+  height: 200px;
+}
 }
 
 @media screen and (min-width: 427px) {
@@ -98,6 +103,23 @@ nav {
 .align > * {
   max-width: 50%;
   max-height: fit-content;
+}
+
+.bomba {
+  width: 100px;
+  height: 100px;
+}
+
+.text2 {
+  background-color: #000;
+  color: white;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
 }
 }
 
